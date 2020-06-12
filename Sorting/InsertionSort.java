@@ -1,5 +1,5 @@
 import java.util.*;
-class SelectionSort {
+class insertionSort {
   public static void main(String[] args) {
     // create a console for the user to input response
     Scanner console = new Scanner(System.in);
