@@ -7,6 +7,7 @@
 Folders: 
 
   - Amherst_187: consists of projects that were assigned to that class (In java and covered data structures)
+  
     - Recently
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures)
