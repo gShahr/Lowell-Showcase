@@ -10,7 +10,7 @@ Folders:
   
     - Recently added Assignment 3, which is the set project
     
-      - Implementing a set with linked lists
+      - Implementing a set with a linked list
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures)
