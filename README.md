@@ -13,4 +13,4 @@ Folders:
       - Implementing a set with a linked list
       
   
-  - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures)
+  - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
