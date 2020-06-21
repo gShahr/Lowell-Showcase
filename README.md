@@ -15,4 +15,4 @@ Folders:
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
   
-  - CodeForces & LeetCode
+  - CodeForces & LeetCode: solved various problems 
