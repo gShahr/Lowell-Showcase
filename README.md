@@ -18,3 +18,6 @@ Folders:
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
   
   - CodeForces & LeetCode: solved various problems there
+  
+    - Occasionally particpating in contests as well
+    
