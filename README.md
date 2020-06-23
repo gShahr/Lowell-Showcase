@@ -19,5 +19,5 @@ Folders:
   
   - CodeForces & LeetCode: solved various problems there
   
-    - Occasionally particpating in contests as well along with other
+    - Occasionally particpating in contests as well along with other things
     
