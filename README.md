@@ -12,7 +12,7 @@ Folders:
     
       - Implementing a set with a linked list
       
-    - Added 2 more projects (currently working on Towers of Hanoi, which is Assignment 6).
+    - Added 2 more projects (currently working on Towers of Hanoi, which is Assignment 6)./.
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
