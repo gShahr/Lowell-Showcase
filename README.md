@@ -14,7 +14,7 @@ Folders:
       
     - Added 2 more projects (currently working on Towers of Hanoi, which is Assignment 6).
     
-    - Ran into an error in assingment 6 where the for each loop isn't working as expected
+    - Ran into an error in assingment 6 where the for each loop isn't working as expected for the given test case (regular for loop works)
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
