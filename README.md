@@ -29,3 +29,7 @@ Folders:
     
     - Currently working on mastering dats structures in java and hoping to use that knoweledge for c++
     
+    SideNote: 
+    
+    - A lot of people have doubt in me that I do not have the knowledge needed to be successful in computer science
+    
