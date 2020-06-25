@@ -33,3 +33,5 @@ SideNote:
     
     - A lot of people have doubt in me that I do not have the knowledge needed to be successful in computer science
     
+    - I am hoping to accomplish my goals by the start of September
+    
