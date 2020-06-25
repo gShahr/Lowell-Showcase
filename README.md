@@ -25,3 +25,5 @@ Folders:
   
     - Occasionally particpating in contests as well along with other things
     
+    - Currently working on mastering dats structures in java and hoping to use that knoweledge for c++
+    
