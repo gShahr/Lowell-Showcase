@@ -14,7 +14,9 @@ Folders:
       
     - Added 2 more projects (currently working on Towers of Hanoi, which is Assignment 6).
     
-    - Ran into an error in assingment 6 where the for each loop isn't working as expected for the given test case (regular for loop works)
+    - Ran into an error in assingment 6 where the for each loop isn't working as expected for the given test case (regular for loop works) 
+    
+      - This error is interesting because the object array that the for each loop is supposed to be iterating through has a length of 1, which means that it should hypothetically run through the loop because it has one element in it. This semantic error does not make sense to me
     
     - Currently working on project 7, which is queue implementation along with level order traversal of a tree and using a queue for merge sort
     
