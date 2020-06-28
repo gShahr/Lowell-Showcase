@@ -35,7 +35,7 @@ Folders:
     
     - Currently working on mastering dats structures in java and hoping to use that knoweledge for c++
     
-    - I'm going to stop uploading code for these problems because there are too many and the data is all stored on my account 
+    - I'm going to stop uploading code for these problems because there are too many and the data is all stored on my account if I need to reference them
     
 SideNote: 
    
