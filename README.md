@@ -22,7 +22,7 @@ Folders:
     
     - Almost finished with project 7 and going to upload soon - Finished it 
     
-    - Currently working on project 9 - just finished 8 (recursive lists)
+    - Currently working on project 9 - just finished 8 (linked lists implemented recursively)
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
