@@ -21,6 +21,8 @@ Folders:
     - Currently working on project 7, which is queue implementation along with level order traversal of a tree and using a queue for merge sort
     
     - Almost finished with project 7 and going to upload soon - Finished it 
+    
+    - Currently working on project 9 - just finished 8 (recursive lists)
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
