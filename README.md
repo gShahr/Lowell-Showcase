@@ -20,7 +20,7 @@ Folders:
     
     - Currently working on project 7, which is queue implementation along with level order traversal of a tree and using a queue for merge sort
     
-    - Almost finished with project 7 and going to upload soon - Finished it 
+    - Almost finished with project 7 (merge sort, level order traversal, and queues) and going to upload soon - Finished it 
     
     - Currently working on project 9 - just finished 8 (linked lists implemented recursively)
       
