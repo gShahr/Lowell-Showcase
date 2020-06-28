@@ -22,7 +22,7 @@ Folders:
     
     - Almost finished with project 7 (merge sort, level order traversal, and queues) and going to upload soon - Finished it 
     
-    - Currently working on project 9 - just finished 8 (linked lists implemented recursively)
+    - Currently working on project 9 - just finished 8 (linked lists implemented recursively) - test cases were created by me
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
