@@ -35,7 +35,10 @@ Folders:
     
     - Currently working on mastering dats structures in java and hoping to use that knoweledge for c++
     
+    - I'm going to stop uploading code for these problems because there are too many and the data is all stored on my account 
+    
 SideNote: 
+   
     
     - A lot of people have doubt in me that I do not have the knowledge needed to be successful in computer science
     
