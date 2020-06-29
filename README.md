@@ -10,7 +10,7 @@ Folders:
   
     - Recently added Assignment 3, which is the set project 
     
-      - Implementing a set with a linked 
+      - Implementing a set with a linked linked 
       
     - Added 2 more projects (currently working on Towers of Hanoi, which is Assignment 6).
     
