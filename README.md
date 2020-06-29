@@ -25,7 +25,7 @@ Folders:
     - Currently working on project 9 - just finished 8 (linked lists implemented recursively) - test cases were created by me
     
     - Project 9 consists of implementing binary search tree methods - Difficut to implement as I am starting to learn about trees 
-      - Currently working on scape goat trees, which is a binary search tree that balances itself
+      - Currently working on scape goat trees, which is a binary search tree that balances itself - self balancing tree (many variations out there as well)
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
