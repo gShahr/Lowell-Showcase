@@ -24,7 +24,7 @@ Folders:
     
     - Currently working on project 9 - just finished 8 (linked lists implemented recursively) - test cases were created by me
     
-    - Project 9 consists of implementing binary search tree methods 
+    - Project 9 consists of implementing binary search tree methods - Difficut to implement as I am starting to learn about trees
       
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
