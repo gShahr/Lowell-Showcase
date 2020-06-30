@@ -6,7 +6,7 @@
 
 Folders: 
 
-  - Amherst_187: consists of projects that were assigned to that class (In java and covers data structures; currently finished 8 projects)
+  - Amherst_187: consists of projects that were assigned to that class (In java and covers data structures; currently finished 8 projects - 5 more to go)
   
     - Recently added Assignment 3, which is the set project 
     
