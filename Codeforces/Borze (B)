@@ -1,0 +1,23 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+    Scanner console = new Scanner(System.in);
+    String code = console.next();
+    String num = "";
+    for (int i = 0; i < code.length(); i++) {
+      String sub1 = code.substring(i, i+1);
+      if (sub1.equals(".")) {
+        num += "0";
+      } else if (i + 1 != code.length()) {
+        String sub2 = code.substring(i, i+2);
+        if (sub2.equals("-.")) {
+          num += "1";
+        } else {
+          num += "2";
+        }
+        i++;
+      }
+    }
+    System.out.println(num);
+  }
+}
