@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main {
+  public static void main(String[] args) {
+    Scanner console = new Scanner(System.in);
+    int n = console.nextInt();
+    int[] steps = new int[n];
+    for (int i = 0; i < n; i++) {
+      steps[i] = console.nextInt();
+    }
+    int count = 1;
+    ArrayList<Integer> list = new ArrayList<Integer>();
+    // works for everything until it hits the end
+    for (int i = 0; i < n-1; i++) {
+      if (steps[i+1] == 1) {
+        list.add(count);
+        count = 1;
+      } else {
+        count++;
+      }
+    }
+    list.add(count);
+    System.out.println(list.size());
+    for (int i = 0; i < list.size(); i++) {
+      System.out.print(list.get(i) + " ");
+    }
+  }
+}
