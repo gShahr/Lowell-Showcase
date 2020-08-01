@@ -28,6 +28,8 @@ Folders:
       - Currently working on scape goat trees, which is a binary search tree that balances itself - self balancing tree (many variations out there as well)
       - Just finished and the implementationis extremely slow
       
+    - Project 10 finished and going to create more test cases for it 
+      
   
   - HackerRank: consists of various exercises on the HackerRank website (Mostly data structures and algorithms)
   
