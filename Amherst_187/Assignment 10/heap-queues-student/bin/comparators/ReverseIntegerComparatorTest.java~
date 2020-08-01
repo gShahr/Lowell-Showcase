@@ -1,0 +1,22 @@
+package structures;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class MaxQueueTest {
+
+  IntegerComparator comparator;
+	
+  @Before
+  public void setup() {
+    comparator = new IntegerComparator();
+  }
+
+  @Test (timeout = 100)
+  public void testOne() {
+  }
+
+}

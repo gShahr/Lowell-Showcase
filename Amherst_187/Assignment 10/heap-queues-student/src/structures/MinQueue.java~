@@ -1,0 +1,3 @@
+public class MinQueue<P, V> implements PriorityQueue<P, V> {
+}
+
