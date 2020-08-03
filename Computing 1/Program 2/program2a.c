@@ -1,3 +1,15 @@
+/***********************************************************************************************
+	Program:	program2a.c
+	Author:		Gabriel S.
+	Date:		August 3, 2020
+	Time Spent:	1 hour
+	Purpose:	The purpose of this program is to be able to play a two player game
+				    of rock-paper-scissors, using R/P/S for Rock/Paper/Scissors. The program
+				    lets the users play as many times as they want. It also gives the users
+				    a chance to re-enter a choice if they type something other than R/P/S or y/Y/n/N
+				    for the 'do you want to continue' prompt.
+************************************************************************************************/
+
 #include <stdio.h>
 // included so I can convert letters to lowercase
 #include <ctype.h>
