@@ -1,3 +1,16 @@
+/***********************************************************************************************
+	Program:	program1a.c
+	Author:		Gabriel S.
+	Date:		August 8, 2020
+	Time Spent:	1 hour
+	Purpose:	The purpose of this program is to determine whether a meeting room is
+				below, at or above the maximum room capacity. The user enters both the 
+				number of people in the room and the maximum number of people allowed,
+				and the program then determines whether the meeting is legal or not. 
+				It then prints to the screen how many more people can be in the room or 
+				how many people must leave the room for the meeting to be held.
+************************************************************************************************/
+
 // this is the standard input output library
 #include <stdio.h>
 
