@@ -1,12 +1,12 @@
 /***********************************************************************************************
 	Program:	  program4b.c
 	Author:		  Gabriel S.
-	Date:		    August 3, 2020
-	Time Spent:	1 hour
+	Date:		  August 4, 2020
+	Time Spent:	  1 hour
 	Purpose:	  The purpose of this program is to ask the user if they want to convert a length
-				      or a weight. Once the user enters a selection the program will then ask the user
-				      if they want to convert between various units of measure (feet/meters or kilograms/pounds).
-				      The program then prints out what they selected. It runs until the user enters '0' to quit the program.
+			  or a weight. Once the user enters a selection the program will then ask the user
+			  if they want to convert between various units of measure (feet/meters or kilograms/pounds).
+			  The program then prints out what they selected. It runs until the user enters '0' to quit the program.
 ************************************************************************************************/
 
 
