@@ -4,7 +4,7 @@
 	Time Spent:	1 hour
 	Purpose:	This program will calculate the area of a rectangle given an input
 			that is positive, ie a length and a width. The program calculates the area
-			and then displays it along with the width and length for the user to see.
+			and then displays it along with a representation of the rectangle drawn in asterisks.
 ************************************************************************************************/
 
 #include <stdio.h>
