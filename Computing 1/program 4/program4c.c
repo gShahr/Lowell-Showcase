@@ -176,7 +176,7 @@ void weight_to_metric() {
   scanf(" %lf", &ounces);
    
   double total = 16 * pounds + ounces; // total in ounces
-  total *= 28.3498140252; // total in grams
+  total *= (1 / (35.2736 / 1000)); // total in grams
   int kilos = total / 1000; // total in kilos
   double grams = fmod(total, 1000); // remainder in grams
   printf("\nThe converted length is %d kilograms and %.5lf grams\n\n", kilos, grams);
