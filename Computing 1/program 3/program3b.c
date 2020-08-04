@@ -33,7 +33,7 @@ void start() {
   system("clear");
   printf("This program outputs the gravitational attractive force (default units are grams and centimeters)\n\n");
   printf("Press x for pounds and inches (case sensitive): ");
-  scanf("%c", &ans);
+  scanf(" %c", &ans);
   printf("\nEnter mass for person 1, then enter mass for person 2, and finally enter the distance in between them:\n\n");
   scanf("%lf%lf%lf", &mass1, &mass2, &distance);
   if (ans == 'x') {
