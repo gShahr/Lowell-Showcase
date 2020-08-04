@@ -13,16 +13,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// function declaration
+// function declarations
 void ask_user();
-void ask_for_length();
-void ask_for_weight();
 
 void convert_length();
+void convert_weights();
+
 void length_to_metric();
 void length_to_us();
-
-void convert_weights();
 void weight_to_metric();
 void weight_to_us();
 
@@ -56,23 +54,21 @@ void ask_user() {
       break;
     case '1':
       convert_length();
-      ask_for_length();
       break;
     case '2':
       convert_weights();
-      ask_for_weight();
       break;
   }
 
 }
 
-void ask_for_length() {
+void convert_length() {
 
   system("clear");
 
   char ans;
 
-  convert_length();
+  printf("You choose to convert length\n\n");
   printf("Choose to convert between system of meaasurements. Either feet/inches to meters/centimeters or vice versa.\nEnter one of the following numbers: \n\n1. Convert length (meters/cen) to metric \n2. Convert length (feet/inches) to imperial \nGO BACK: Enter 0\n\n");
 
   do {
@@ -87,24 +83,32 @@ void ask_for_length() {
     case '1':
       length_to_metric();
       cont();
-      ask_for_length();
+      convert_length();
       break;
     case '2':
       length_to_us();
       cont();
-      ask_for_length();
+      convert_length();
       break;
   }
+}
+
+void length_to_metric() {
+  printf("You choose to convert from feet/inches to meters/centimeters\n\n");
 
 }
 
-void ask_for_weight() {
+void length_to_us() {
+  printf("\n\nYou choose to convert from meters/centimeters to feet/inches\n\n");
+}
+
+void convert_weights() {
 
   system("clear");
 
   char ans;
 
-  convert_weights();
+  printf("\n\nYou choose to convert weights\n\n");
   printf("Choose to convert between system of meaasurements. Either pounds/ounces to kilograms/grams or vice versa. \nEnter one of the following numbers: \n\n1. Convert (pounds/ounces) weight to metric \n2. Convert weight (kilos/grams) to imperial \nGO BACK: Enter 0\n\n");
 
   do {
@@ -119,31 +123,14 @@ void ask_for_weight() {
     case '1':
       weight_to_metric();
       cont();
-      ask_for_weight();
+      convert_weights();
       break;
     case '2':
       weight_to_us();
       cont();
-      ask_for_weight();
+      convert_weights();
       break;
   }
-}
-
-void convert_length() {
-  printf("You choose to convert length\n\n");
-}
-
-void length_to_metric() {
-  printf("You choose to convert from feet/inches to meters/centimeters\n\n");
-
-}
-
-void length_to_us() {
-  printf("\n\nYou choose to convert from meters/centimeters to feet/inches\n\n");
-}
-
-void convert_weights() {
-  printf("\n\nYou choose to convert weights\n\n");
 }
 
 void weight_to_metric() {
