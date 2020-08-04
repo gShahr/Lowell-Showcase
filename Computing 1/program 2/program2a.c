@@ -31,14 +31,14 @@ int main(int argc, char* argv[]) {
   do { 
 
     start(); // starts the game
-    valid(p1, p2); // checks to see if players' responses were valid
-    play(p1, p2); // plays the game
-    cont(ans); // sees if the players want to continue
+    valid(); // checks to see if players' responses were valid
+    play(); // plays the game
+    cont(); // sees if the players want to continue
 
   } while (ans == 'Y' || ans == 'y');
 
   return 0;
-  
+
 }
 
 void start() {
@@ -85,4 +85,6 @@ void cont() {
       scanf("\n%c", &ans);
     } 
 }
+
+
 
