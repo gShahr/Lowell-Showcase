@@ -94,7 +94,7 @@ void convert_length() {
 }
 
 void length_to_metric() {
-  printf("You choose to convert from feet/inches to meters/centimeters\n\n");
+  printf("\n\nYou choose to convert from feet/inches to meters/centimeters\n\n");
 
 }
 
