@@ -1,10 +1,10 @@
 /***********************************************************************************************
-	Author:		  Gabriel S.
-	Date:		    August 3, 2020
+	Author:		Gabriel S.
+	Date:		August 3, 2020
 	Time Spent:	1 hour
-	Purpose:	  This program will calculate the area of a rectangle given an input
-				      that is positive, ie a length and a width. The program calculates the area
-				      and then displays it along with the width and length for the user to see.
+	Purpose:	This program will calculate the area of a rectangle given an input
+			that is positive, ie a length and a width. The program calculates the area
+			and then displays it along with the width and length for the user to see.
 ************************************************************************************************/
 
 #include <stdio.h>
