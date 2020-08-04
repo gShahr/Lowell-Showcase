@@ -108,7 +108,7 @@ void convert_weights() {
 
   char ans;
 
-  printf("\n\nYou choose to convert weights\n\n");
+  printf("You choose to convert weights\n\n");
   printf("Choose to convert between system of meaasurements. Either pounds/ounces to kilograms/grams or vice versa. \nEnter one of the following numbers: \n\n1. Convert (pounds/ounces) weight to metric \n2. Convert weight (kilos/grams) to imperial \nGO BACK: Enter 0\n\n");
 
   do {
