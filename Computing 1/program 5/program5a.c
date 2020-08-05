@@ -1,8 +1,8 @@
 /***********************************************************************************************
 	Program:	  program2a.c
 	Author:		  Gabriel S.
-	Date:		  August 4, 2020
-	Time Spent:	  1 hour
+	Date:		  August 5, 2020
+	Time Spent:	  2 hours
 	Purpose:	  The purpose of this program is to take two files filled with integers 
 			  (or none) and merge them in ascending order in a third file by outputting 
 			  the values of both files to the third one in increasing order.
