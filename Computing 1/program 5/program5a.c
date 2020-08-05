@@ -3,9 +3,9 @@
 	Author:		  Gabriel S.
 	Date:		  August 4, 2020
 	Time Spent:	  1 hour
-	Purpose:	  The purpose of this program is to ask the user if they want to convert a 
-                          length or a weight. It will only run if the user selects a 0, 1, or 2. 
-                          It should run until the user enters '0' to quit the program.
+	Purpose:	  The purpose of this program is to take two files filled with integers 
+			  (or none) and merge them in ascending order in a third file by outputting 
+			  the values of both files to the third one in increasing order.
 ************************************************************************************************/
 
 #include <stdio.h>
