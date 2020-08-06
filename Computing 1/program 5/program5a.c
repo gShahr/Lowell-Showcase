@@ -24,12 +24,21 @@ int main() {
 }
 
 // Takes two files filled with integers (or none) and merges them in ascending order in a third file
-// -> preconditions (of files except that they exist): none
+// -> preconditions (of files): none
 void merge(FILE *input1, FILE *input2, FILE *output) {
 
   input1 = fopen("numbers1.txt", "r"); // open file and read from it
   input2 = fopen("numbers2.txt", "r"); // oepn file and read from it
+  // makes sure both input.txt files exist
+  if (input1 == NULL || input2 == NULL) {
+    printf("One of the input files is missing!");
+    exit(1);
+  }
+  // if output file doesn't exist, the program makes one
   output = fopen("output.txt", "w"); // open file and write to it
+  if (output == NULL) {
+    output = fopen("ouput.txt", "mode");
+  }
 
   int a, b; // a is the value from the first file and b is the value from the second file
 
@@ -52,7 +61,6 @@ void merge(FILE *input1, FILE *input2, FILE *output) {
 
   // 3 cases can result from this -> input1 still has integers left, input2 still has integers left or neither of them have integers left
   // since preconditions were not defined for us, we have to take into account all the possibilites
-	// hence having to check both files for EOF because both could potentially be empty
   if (check1 != EOF && check2 == EOF) {
     while (check1 != EOF) {
       fprintf(output, "%d ", a);
@@ -69,4 +77,7 @@ void merge(FILE *input1, FILE *input2, FILE *output) {
   fclose(input1);
   fclose(input2);
   fclose(output);
+
+  // print success message
+  printf("Merging Successful!");
 }
