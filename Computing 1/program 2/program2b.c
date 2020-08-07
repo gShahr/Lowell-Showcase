@@ -3,10 +3,10 @@
 	Author:		Gabriel S.
 	Date:		August 3, 2020
 	Time Spent:	1 hour 
-	Purpose:	The purpose of thise program is to calculate how large a population
-			of green crud will be after x number of days. The program takes the users
-			input on how large the initial population of green crud is and how many days 
-			the user wants the program to calculate out to. 
+	Purpose:	The program calculates how large a population of green crud will be 
+			after n number of days. It asks the users' input on how large 
+			the initial population of green crud is and how many days have passed.
+			It then computes how much it has grown and displays that to the user.
 ************************************************************************************************/
 
 #include <stdio.h>
