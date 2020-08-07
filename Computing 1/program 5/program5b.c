@@ -22,7 +22,7 @@
    // 4. Nothing else besides name and quiz scores should be on the files (Program does not account for this)
 
 // Global variables
-int lines = 0; // Counts how many students there are
+int lines = 0; // Keeps track of how many students there are
 
 // Function delcarations
 void is_valid(FILE *input1, FILE *output);
