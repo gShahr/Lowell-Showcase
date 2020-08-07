@@ -2,9 +2,11 @@
 	Author:		Gabriel S.
 	Date:		August 3, 2020
 	Time Spent:	1 hour
-	Purpose:	This program will calculate the area of a rectangle given an input
-			that is positive, ie a length and a width. The program calculates the area
-			and then displays it along with a representation of the rectangle drawn in asterisks.
+	Purpose:	This program will calculate the area of a rectangle given two inputs
+			that are positive, which corresponds to the length and width of the rectangle.
+			The program calculates the area and then displays it along with a representation 
+			of the rectangle drawn in asterisks.The amount of asteriks drawn is the length 
+			and the width rounded to the nearest integer multipled by each other.
 ************************************************************************************************/
 
 #include <stdio.h>
