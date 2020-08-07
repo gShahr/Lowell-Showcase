@@ -3,12 +3,12 @@
 	Author:		Gabriel S.
 	Date:		August 3, 2020
 	Time Spent: 	30 minutes
-	Purpose:	The purpose of this program is to calculate how long it will take to pay
-			off a purchase of a stereo system. The stereo system was purchased for $1,000
-			and this program assumes monthly payments of $50, with 1.5% interest each month.
-			The $50 first goes to interest and then to the principal. The program performs
-			the necessary calculations and it then prints out how many months it will take
-			to pay off the stereo purchase, as well as the total interest paid.
+	Purpose:	The program finds out how long it will take to pay off a purchase 
+			of a stereo system. The stereo system is $1,000 and the program assumes 
+			monthly payments of $50 with 1.5% interest each month on the purchase.
+			The $50 goes to interest and then principal. The programs computes various
+			statistics and outputs them to the user, such as how many months it 
+			will take to pay off the stereo and the total interest paid.
 ************************************************************************************************/
 
 #include <stdio.h>
