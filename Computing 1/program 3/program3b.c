@@ -3,11 +3,11 @@
 	Author:		  Gabriel S.
 	Date:		  August 4, 2020
 	Time Spent:	  2 hours
-	Purpose:	  This program finds the force between two objects and a distance. 
+	Purpose:	  The program finds the force between two objects and a distance. 
 			  The user enters the two masses and the distance and the program 
 			  uses this information to calculate the force between the two objects.
 			  
-Attractive force between the moon and the earth = 1.98e25 dynes
+Attractive force between the moon and the earth is 1.98e25 dynes
 ************************************************************************************************/
 
 #include <stdio.h>
