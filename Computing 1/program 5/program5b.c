@@ -5,7 +5,7 @@
 	Time Spent:	  6 hours
 	Purpose:	  The purpose of this program is to take one file filled with names and
 			   quiz scores and output them to a new file according to a format (20 characters wide 
-            for names, 40 characters wide for quiz scores, and 10 characters wide for averages)
+            		for names, 40 characters wide for quiz scores, and 10 characters wide for averages)
 			  and add the respective quiz averages to each student's profile.
 ************************************************************************************************/
 
