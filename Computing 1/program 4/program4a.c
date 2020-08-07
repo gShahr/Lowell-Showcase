@@ -5,7 +5,7 @@
 	Time Spent:	  1 hour
 	Purpose:	  The purpose of this program is to ask the user if they want to convert a 
                           length or a weight. It will only run if the user selects a 0, 1, or 2. 
-                          It program will end when the user enters '0'.
+                          The program will end when the user enters '0'.
 ************************************************************************************************/
 
 #include <stdio.h>
