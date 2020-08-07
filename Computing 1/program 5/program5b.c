@@ -4,8 +4,9 @@
 	Date:		  August 6, 2020
 	Time Spent:	  6 hours
 	Purpose:	  The purpose of this program is to take one file filled with names and
-			  quiz scores and output them to a new file according to a format (20 characters wide 
-            		  for names, 40 characters wide for quiz scores, and 10 characters wide for averages)
+			  quiz scores and output them to a new file and then back to the original 
+			  according to a format (20 characters wide for names, 40 characters wide for quiz 
+			  scores, and 10 characters wide for averages)
 			  and add the respective quiz averages to each student's profile. 
 ************************************************************************************************/
 
@@ -26,6 +27,7 @@ int lines = 0; // Counts how many students there are
 // Function delcarations
 void is_valid(FILE *input1, FILE *output);
 void format_data(FILE *input1, FILE *output);
+void copy_data(FILE *input1, FILE *output);
 
 int main() {
   
@@ -34,6 +36,8 @@ int main() {
   is_valid(input1, output); // checks to see if the files exist and if the names are valid (making sure that they don't cause buffer overflow)
 
   format_data(input1, output); // call the function to format data of the input so that it looks neater and has the quiz averages
+
+  copy_data(input1, output); // copies the data from averages.txt to quiz.txt
 
   printf("\nProgram Finished Succesfully!"); // Let the user know if the program finished successfully
 
@@ -83,6 +87,9 @@ void is_valid(FILE *input1, FILE *output) {
   lines++; // increment lines by one to indiciate that there is another student
   white_space = 0; // reset value of white_space each iteration
   }
+  // close all files 
+  fclose(input1);
+  fclose(output);
 }
 
 // Takes an input file filled with student information and quiz scores and makes it neater by allocating spaces to each coloumn and includes the averages for their quizzes
@@ -132,6 +139,26 @@ void format_data(FILE *input1, FILE *output) {
   average = total / 10; // compute the average by dividing by 10
   fprintf(output, "%.1lf \n", average); // print out average to one decimal point and set file pointer to next line
   }
+  // close all files 
+  fclose(input1);
+  fclose(output);
+}
+
+// copies data from averages.txt = quiz.txt
+void copy_data(FILE *input1, FILE *output) {
+
+  input1 = fopen("quiz.txt", "w"); // open file and write to it
+  // maks sure quiz.txt exists
+  output = fopen("averages.txt", "r"); // open file and read from it
+
+  char c;
+  while ((c = fgetc(output)) != EOF) {
+    fprintf(input1, "%c", c);
+  }
+
+  // close files
+  fclose(input1);
+  fclose(output);
 }
 
 /* My General Strategy
