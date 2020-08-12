@@ -41,10 +41,4 @@ Folders:
     
     - I'm going to stop uploading code for these problems because there are too many and the data is all stored on my account if I need to reference them
     
-SideNote: 
-   
-    
-    - A lot of people have doubt in me that I do not have the knowledge needed to be successful in computer science
-    
-    - I am hoping to accomplish my goals by the start of September
     
