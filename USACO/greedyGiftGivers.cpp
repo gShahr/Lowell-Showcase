@@ -1,3 +1,9 @@
+/*
+ID: gshahro1
+LANG: C++
+TASK: Greedy Gift Givers
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
