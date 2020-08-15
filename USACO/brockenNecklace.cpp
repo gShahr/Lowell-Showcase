@@ -24,8 +24,8 @@ int main() {
     int leftL = 0, rightL = 0;
     for (int j = i; j < n+i; j++) {
       if (leftL >= n - rightL - 1) {
-        output << n << endl;
-        return 0;
+        max = n;
+        break;
       }
       if (colors[j%n] == 'r') {leftR = true;}
       else if (colors[j%n] == 'b') {leftB = true;}
@@ -42,6 +42,7 @@ int main() {
       }
     }
     if (leftL + rightL > max) {max = leftL + rightL;}
+    if (max == n) {break;}
   }
   output << max << endl;
   input.close(); output.close();
