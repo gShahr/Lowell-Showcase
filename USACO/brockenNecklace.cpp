@@ -22,15 +22,15 @@ int main() {
   for (int i = 0; i < n; i++) {
     bool leftR = false, leftB = false, rightR = false, rightB = false;
     int leftL = 0, rightL = 0;
-    for (int j = 0; j < n; j++) {
+    for (int j = i; j < n+i; j++) {
       if (leftL >= n - rightL - 1) {
         output << n << endl;
         return 0;
       }
-      if (colors[j] == 'r') {leftR = true;}
-      else if (colors[j] == 'b') {leftB = true;}
-      if (colors[n-1-j] == 'r') {rightR = true;}
-      else if (colors[n-1-j] == 'b') {rightB = true;}
+      if (colors[j%n] == 'r') {leftR = true;}
+      else if (colors[j%n] == 'b') {leftB = true;}
+      if (colors[(n+i+i-j-1)%n] == 'r') {rightR = true;}
+      else if (colors[(n+i+i-j-1)%n] == 'b') {rightB = true;}
       if (leftR == false || leftB == false) {
         leftL++;
       }
@@ -42,9 +42,6 @@ int main() {
       }
     }
     if (leftL + rightL > max) {max = leftL + rightL;}
-    c = colors[0];
-    colors.push_back(c);
-    colors.erase(colors.begin());
   }
   output << max << endl;
   input.close(); output.close();
