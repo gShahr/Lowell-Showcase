@@ -18,13 +18,13 @@ int main() {
     input >> c;
     colors.push_back(c);
   }
-  int max = 0;
+  int maxLength = 0;
   for (int i = 0; i < n; i++) {
     bool leftR = false, leftB = false, rightR = false, rightB = false;
     int leftL = 0, rightL = 0;
     for (int j = i; j < n+i; j++) {
       if (leftL >= n - rightL - 1) {
-        max = n;
+        maxLength = n;
         break;
       }
       if (colors[j%n] == 'r') {leftR = true;}
@@ -41,10 +41,10 @@ int main() {
         break;
       }
     }
-    if (leftL + rightL > max) {max = leftL + rightL;}
-    if (max == n) {break;}
+    maxLength = max(leftL+rightL, maxLength);
+    if (maxLength == n) {break;}
   }
-  output << max << endl;
+  output << maxLength << endl;
   input.close(); output.close();
   return 0;
 }
