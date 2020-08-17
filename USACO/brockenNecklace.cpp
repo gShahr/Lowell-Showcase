@@ -31,13 +31,13 @@ int main() {
       else if (colors[j%n] == 'b') {leftB = true;}
       if (colors[(n+i+i-j-1)%n] == 'r') {rightR = true;}
       else if (colors[(n+i+i-j-1)%n] == 'b') {rightB = true;}
-      if (leftR == false || leftB == false) {
+      if (!leftR|| !leftB) {
         leftL++;
       }
-      if (rightR == false || rightB == false) {
+      if (!rightR || !rightB) {
         rightL++;
       }
-      if (leftR == true && leftB == true && rightR == true && rightB == true) {
+      if (leftR && leftB && rightR && rightB) {
         break;
       }
     }
