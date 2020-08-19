@@ -14,7 +14,6 @@ int main() {
   int count = 0;
   bool cond;
   bool cond2;
-  int i = 0;
   while (dict >> name) {
     if (name.length() == num.length()) {
       cond2 = true;
@@ -31,7 +30,6 @@ int main() {
       }
       if (cond2) {output << name << endl; count++;}
     }
-    i++;
   }
   if (count == 0) {
     output << "NONE" << endl;
