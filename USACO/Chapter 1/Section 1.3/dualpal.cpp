@@ -9,6 +9,7 @@ using namespace std;
 string convert(int n, int B);
 bool is_palindrome(string n);
 
+// Finds N palindromic numbers in 2 different bases after a specified range by using brute force/complete search.
 int main() {
   ifstream input("dualpal.in");
   ofstream output("dualpal.out");
