@@ -6,6 +6,7 @@ TASK: barn1
 #include <bits/stdc++.h>
 using namespace std;
 
+// Count C largest gaps between numbers in order and then subtract that from the range and then add M. If M > C, then just print out C
 int main() {
   ifstream input("barn1.in");
   ofstream output("barn1.out");
