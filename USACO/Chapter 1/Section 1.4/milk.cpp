@@ -6,6 +6,7 @@ TASK: milk
 #include <bits/stdc++.h>
 using namespace std;
 
+// Create a multimap to hold price and amounts (to hold all values; not just unique) -> keep iterating until amount specified is met. (multimap is ordered so it starts with smallest price).
 int main() {
   ifstream input("milk.in");
   ofstream output("milk.out");
